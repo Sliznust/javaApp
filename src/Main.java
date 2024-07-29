@@ -7,10 +7,10 @@ public class Main {
 //
 //        Напишите программу, которая запрашивает у пользователя число n и использует цикл для вычисления суммы чисел от 1 до n.
 
-
+        int sum = 0;
         for (int i = 0; i < 20; i++) {
             if (i % 2 == 0) {
-                System.out.println(i);
+                System.out.println(sum += i);
             }
         }
 
